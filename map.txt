@@ -1,0 +1,45 @@
+.
+├── config
+│   ├── main.yaml
+│   ├── model
+│   │   ├── model1.yaml
+│   │   └── model2.yaml
+│   └── process
+│       ├── process1.yaml
+│       └── process2.yaml
+├── data
+│   ├── final
+│   ├── processed
+│   ├── raw
+│   │   └── youtoxic.csv
+│   └── raw.dvc
+├── docs
+├── dvc.yaml
+├── LICENSE
+├── main.ipynb
+├── main.py
+├── Makefile
+├── map.txt
+├── models
+├── notebooks
+├── __pycache__
+│   └── preview
+│       ├── ImageIO
+│       ├── Matplotlib
+│       ├── OpenCV
+│       ├── PIL
+│       ├── Plotly
+│       ├── Pytorch
+│       └── Tensorflow
+├── pyproject.toml
+├── README.md
+├── src
+│   ├── __init__.py
+│   ├── process.py
+│   └── train_model.py
+└── tests
+    ├── __init__.py
+    ├── test_process.py
+    └── test_train_model.py
+
+21 directories, 21 files
