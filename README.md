@@ -1,4 +1,6 @@
 # Inside
+inside is a machinelearning application for content creators and their work team, specifically oriented to managers. Our application is able to detect hate messages on youtube and warn by telegram to the /administrators/managers of the channel with the message and so they can take effective measures, there is also the option to ban the user automatically in its paid version by subscription. version 0.01 telegram https://t.me/Nlpyoubot
+
 
 ## Tools used in this project
 * [Poetry](https://towardsdatascience.com/how-to-effortlessly-publish-your-python-package-to-pypi-using-poetry-44b305362f9f): Dependency management - [article](https://towardsdatascience.com/how-to-effortlessly-publish-your-python-package-to-pypi-using-poetry-44b305362f9f)
