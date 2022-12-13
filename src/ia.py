@@ -154,7 +154,7 @@ def prediceToxico(texto):
      print("Deben tomarse medidas.")
      return "\n\nDeben tomarse medidas."
    else:
-      print("Este mensaje no parece ser tóxico")
-      return "\n\nDeben tomarse medidas."
+      print("☢️Este mensaje  parece ser tóxico 💀")
+      return "\n\n☢️Deben tomarse medidas. 💀"
 
      
