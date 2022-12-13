@@ -1,11 +1,71 @@
-# Inside
+# Equipo Adjetivo - Detección de mensajes de odio en comentarios de Youtube
 
-## Tools used in this project
-* [Poetry](https://towardsdatascience.com/how-to-effortlessly-publish-your-python-package-to-pypi-using-poetry-44b305362f9f): Dependency management - [article](https://towardsdatascience.com/how-to-effortlessly-publish-your-python-package-to-pypi-using-poetry-44b305362f9f)
-* [hydra](https://hydra.cc/): Manage configuration files - [article](https://towardsdatascience.com/introduction-to-hydra-cc-a-powerful-framework-to-configure-your-data-science-projects-ed65713a53c6)
-* [pre-commit plugins](https://pre-commit.com/): Automate code reviewing formatting  - [article](https://towardsdatascience.com/4-pre-commit-plugins-to-automate-code-reviewing-and-formatting-in-python-c80c6d2e9f5?sk=2388804fb174d667ee5b680be22b8b1f)
-* [DVC](https://dvc.org/): Data version control - [article](https://towardsdatascience.com/introduction-to-dvc-data-version-control-tool-for-machine-learning-projects-7cb49c229fe0)
-* [pdoc](https://github.com/pdoc3/pdoc): Automatically create an API documentation for your project
+Este proyecto tiene como objetivo automatizar el proceso de deteccion de mensajes de odio
+en los comentarios provenientes de un canal de Youtube en tiempo real mediante la integracion 
+con el servicio de bots proporcionado por la API de Telegram.
+
+Nuestra API recibe los comentarios del canal, los procesa y realiza la prediccion de contenido de odio 
+a traves de un modelo de Machile Learning basado en un algoritmo de Ensemble. 
+
+Si dicho comentario es clasificado como de odio , envia una notificacion al Telegram del propietario del canal de Youtube 
+
+## Comenzando 🚀
+
+_Estas instrucciones te permitirán obtener una copia del proyecto en funcionamiento en tu máquina local para propósitos de desarrollo y pruebas._
+
+Mira **Deployment** para conocer como desplegar el proyecto.
+
+
+### Pre-requisitos 📋
+
+_Clona el proyecto_
+
+```
+git clone https://github.com/Factoria-F5-AI-Bootcamp-1-Edicion/Equipo-Adjetivo-4-nlp.git
+```
+
+_Instalar dependencias_
+
+```
+pip install requirements.txt
+```
+
+_Moverse al la carpeta src/ del proyecto_
+
+```
+cd Equipo-Adjetivo-4-nlp/src
+```
+
+_Usuario debe obtener las credenciales de autenticacion de Telegram y Youtube (tokens)_
+
+```
+https://developers.google.com/youtube/registering_an_application?hl=es-419
+https://core.telegram.org/bots
+```
+
+_Crear un archivo .env con las siguientes dos variables de entorno correspondientes a las credenciales de Youtube y Telegram_
+
+| Variable de entorno | Descripción                    | 
+|---------------------|--------------------------------|-------------------------------------------------|
+| `KEY_TLG`           | token de Telegram              | `Conversación con @BotFather y comando /newbot` |
+| `KEY_YT`            | token de API Youtube           | `Token de Youtube Data API`                     |
+
+
+
+
+## Despliegue 📦
+
+_Ejecutar API desde directorio raiz_
+
+```
+python src/main.py
+```
+
+_Abrir cliente de Telegram (version mobile o escritorio), iniciar una conversacion con @Telgram_
+
+```
+Ejecutar comando /start
+```
 
 ## Project structure
 ```bash
@@ -43,56 +103,35 @@
     └── test_train_model.py         # test functions for train_model.py
 ```
 
-## Set up the environment
-1. Install [Poetry](https://python-poetry.org/docs/#installation)
-2. Set up the environment:
-```bash
-make activate
-make setup
-```
 
-## Install new packages
-To install new PyPI packages, run:
-```bash
-poetry add <package-name>
-```
+## Construido con 🛠️
 
-## Run the entire pipeline
-To run the entire pipeline, type:
-```bash
-dvc repo
-```
+_Menciona las herramientas que utilizaste para crear tu proyecto_
 
-## Version your data
-Read [this article](https://towardsdatascience.com/introduction-to-dvc-data-version-control-tool-for-machine-learning-projects-7cb49c229fe0) on how to use DVC to version your data.
+* [Lenguaje de programacion) - Python 3.10.7
+* Metodología Scrum.
+* IDE: Visual Studio Code
+* Gestor de paquetes: pip
+* Herramienta organizativa : Trello
+* librerias de M.L: Scikit-learn y catboost
+* Librerias NPL : Spacy, spamoji y NLTK, re, string y TextBlob
+* Librerias para comunicacion con servicios externos : requests.
+* Herramientas de  analisis : Pandas, Seaborn y matplotlib.
 
-Basically, you start with setting up a remote storage. The remote storage is where your data is stored. You can store your data on DagsHub, Google Drive, Amazon S3, Azure Blob Storage, Google Cloud Storage, Aliyun OSS, SSH, HDFS, and HTTP.
 
-```bash
-dvc remote add -d remote <REMOTE-URL>
-```
 
-Commit the config file:
-```bash
-git commit .dvc/config -m "Configure remote storage"
-```
+## Versionado 📌
 
-Push the data to remote storage:
-```bash
-dvc push 
-```
+Sistema de control de versiones Git
 
-Add and push all changes to Git:
-```bash
-git add .
-git commit -m 'commit-message'
-git push origin <branch>
-```
+## Autores ✒️
 
-# Auto-generate API documentation
+Victor Arbiol (Product Owner-Developer) 
+Mayra Espinoza (Developer) 
+Nayare Soledad (Developer) 
+Sebastian Degaudenci (Scrum Master) 
 
-To auto-generate API document for your project, run:
 
-```bash
-make docs
-```
+
+
+
