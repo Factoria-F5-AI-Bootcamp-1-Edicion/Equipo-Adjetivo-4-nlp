@@ -46,7 +46,7 @@ https://core.telegram.org/bots
 _Crear un archivo .env con las siguientes dos variables de entorno correspondientes a las credenciales de Youtube y Telegram_
 
 
-| Variable de entorno | Descripción                    | 
+| Variable de entorno | Descripción                    |  Ejemplo                                        |
 |---------------------|--------------------------------|-------------------------------------------------|
 | `KEY_TLG`           | token de Telegram              | `Conversación con @BotFather y comando /newbot` |
 | `KEY_YT`            | token de API Youtube           | `Token de Youtube Data API`                     |
@@ -127,10 +127,10 @@ Sistema de control de versiones Git
 
 ## Autores ✒️
 
-Victor Arbiol (Product Owner-Developer) 
-Mayra Espinoza (Developer) 
-Nayare Soledad (Developer) 
-Sebastian Degaudenci (Scrum Master) 
+* Victor Arbiol (Product Owner-Developer) 
+* Mayra Espinoza (Developer) 
+* Nayare Soledad (Developer) 
+* Sebastian Degaudenci (Scrum Master) 
 
 
 
