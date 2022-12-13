@@ -27,10 +27,10 @@ git clone https://github.com/Factoria-F5-AI-Bootcamp-1-Edicion/Equipo-Adjetivo-4
 _Instalar dependencias_
 
 ```
-pip install requirements.txt
+pip install -r requirements.txt
 ```
 
-_Moverse al la carpeta src/ del proyecto_
+_Moverse a la carpeta src/ del proyecto_
 
 ```
 cd Equipo-Adjetivo-4-nlp/src
