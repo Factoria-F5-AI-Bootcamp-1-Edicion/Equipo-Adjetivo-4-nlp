@@ -1,10 +1,4 @@
 .
-├── catbost_info
-│   ├── learn
-│   │   └── events.out.tfevents
-│   ├── catboost_training
-│   ├── learn_error
-│   └── time_left
 ├── img
 │    └── output.png
 ├── license

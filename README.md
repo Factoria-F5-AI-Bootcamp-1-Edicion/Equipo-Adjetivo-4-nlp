@@ -71,12 +71,6 @@ Ejecutar comando /start
 ## Project structure
 ```bash
 
-├── catbost_info                       # Información de entrenamiento del modelo utilizado CatBoost
-│   ├── learn
-│   │   └── events.out.tfevents
-│   ├── catboost_training
-│   ├── learn_error
-│   └── time_left
 ├── img                                # Imagen de las métricas del modelo.
 │    └── output.png
 ├── license                            # Licencia utilizada para el proyecto.
