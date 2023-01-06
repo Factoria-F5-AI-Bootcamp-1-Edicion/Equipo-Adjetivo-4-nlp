@@ -1,45 +1,35 @@
 .
-├── config
-│   ├── main.yaml
-│   ├── model
-│   │   ├── model1.yaml
-│   │   └── model2.yaml
-│   └── process
-│       ├── process1.yaml
-│       └── process2.yaml
+├── catbost_info
+│   ├── learn
+│   │   └── events.out.tfevents
+│   ├── catboost_training
+│   ├── learn_error
+│   └── time_left
 ├── data
-│   ├── final
-│   ├── processed
-│   ├── raw
-│   │   └── youtoxic.csv
-│   └── raw.dvc
-├── docs
-├── dvc.yaml
-├── LICENSE
-├── main.ipynb
-├── main.py
-├── Makefile
-├── map.txt
-├── models
+│   └── youtoxic_english_1000.csv
+├── img
+│    └── output.png
+├── license
+│    └── LICENSE
 ├── notebooks
-├── __pycache__
-│   └── preview
-│       ├── ImageIO
-│       ├── Matplotlib
-│       ├── OpenCV
-│       ├── PIL
-│       ├── Plotly
-│       ├── Pytorch
-│       └── Tensorflow
-├── pyproject.toml
-├── README.md
+│       ├── EDA+FeaturingEngineering
+│       ├── final_model
+│       ├── Limpieza_dataset
+│       ├── pruebas
+│       └──  Toxico
+├── preparacionTexto
+│       └── istoxic.py
 ├── src
 │   ├── __init__.py
+│   ├── ia.py
+│   ├── main.py
 │   ├── process.py
-│   └── train_model.py
-└── tests
-    ├── __init__.py
-    ├── test_process.py
-    └── test_train_model.py
+│   ├── TlmBot.py
+│   ├── train_model.py
+│   └── youtube.py
+├── .gitignore
+├── map.txt
+├── README.md
+└── requirements.txt
 
 21 directories, 21 files
