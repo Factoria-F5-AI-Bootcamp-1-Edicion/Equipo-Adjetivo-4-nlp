@@ -71,33 +71,32 @@ Ejecutar comando /start
 ## Project structure
 ```bash
 
-├── catbost_info
+├── catbost_info                       # Información de entrenamiento del modelo utilizado CatBoost
 │   ├── learn
 │   │   └── events.out.tfevents
 │   ├── catboost_training
 │   ├── learn_error
 │   └── time_left
-├── img
+├── img                                # Imagen de las métricas del modelo.
 │    └── output.png
-├── license
+├── license                            # Licencia utilizada para el proyecto.
 │    └── LICENSE
-├── notebooks
+├── notebooks                          # Cuadernos de Jupyter para el EDA y pruebas de modelos.
 │       ├── EDA+FeaturingEngineering
 │       ├── final_model
 │       ├── Limpieza_dataset
 │       ├── pruebas
 │       └──  Toxico
-├── preparacionTexto
-│       └── istoxic.py
-├── src
-│   ├── ia.py
-│   ├── main.py
-│   ├── TlmBot.py
-│   └── youtube.py
-├── .gitignore
-├── map.txt
-├── README.md
-└── requirements.txt
+├── src                                # Programas utilizados para el proyecto.
+│   ├── ia.py                          # Mecánica de uso del modelo de IA.
+│   ├── istoxic.py                     # Funciones de preparación de texto y predicción
+│   ├── main.py                        # Programa para arrancar el Bot
+│   ├── TlmBot.py                      # Configuraciones del Bot
+│   └── youtube.py                     # Funciones del bot para predecir toxicidad
+├── .gitignore                         # Extensiones ignoradas por git
+├── map.txt                            # Mapa de la estructura de proyecto
+├── README.md                          # Instrucciones iniciales para levantar la APP
+└── requirements.txt                   # REquerimientos a instalar para levantar el proyecto.
 ```
 
 

@@ -15,10 +15,9 @@
 │       ├── Limpieza_dataset
 │       ├── pruebas
 │       └──  Toxico
-├── preparacionTexto
-│       └── istoxic.py
 ├── src
 │   ├── ia.py
+│   ├── istoxic.py
 │   ├── main.py
 │   ├── TlmBot.py
 │   └── youtube.py
