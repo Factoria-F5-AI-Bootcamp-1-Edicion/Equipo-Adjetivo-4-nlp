@@ -90,12 +90,9 @@ Ejecutar comando /start
 ├── preparacionTexto
 │       └── istoxic.py
 ├── src
-│   ├── __init__.py
 │   ├── ia.py
 │   ├── main.py
-│   ├── process.py
 │   ├── TlmBot.py
-│   ├── train_model.py
 │   └── youtube.py
 ├── .gitignore
 ├── map.txt

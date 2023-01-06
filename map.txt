@@ -5,8 +5,6 @@
 │   ├── catboost_training
 │   ├── learn_error
 │   └── time_left
-├── data
-│   └── youtoxic_english_1000.csv
 ├── img
 │    └── output.png
 ├── license
@@ -20,12 +18,9 @@
 ├── preparacionTexto
 │       └── istoxic.py
 ├── src
-│   ├── __init__.py
 │   ├── ia.py
 │   ├── main.py
-│   ├── process.py
 │   ├── TlmBot.py
-│   ├── train_model.py
 │   └── youtube.py
 ├── .gitignore
 ├── map.txt
